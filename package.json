@@ -1,0 +1,19 @@
+{
+  "name": "teams",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-Soriano/Employee_role.git"
+  },
+  "author": "Miguel Soriano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M-Soriano/Employee_role/issues"
+  },
+  "homepage": "https://github.com/M-Soriano/Employee_role#readme"
+}
