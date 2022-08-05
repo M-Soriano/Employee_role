@@ -1,5 +1,5 @@
-const Employee = require('../lib/Employee');
-const checkIfEqual = require('../lib/Employee');
+const Employee = require('../lib/Employee')
+
 
 
 
