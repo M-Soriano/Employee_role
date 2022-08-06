@@ -1,4 +1,4 @@
-const Employee = require('../lib/Employee')
+const Employee = require('../lib/Employee');
 
 
 
@@ -10,4 +10,4 @@ test('Creating new Employee Object',() => {
     expect(employee.id).toBe('1');
     expect(employee.email).toBe('gmail');
 
-})
+});
