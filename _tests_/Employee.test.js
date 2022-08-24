@@ -11,3 +11,5 @@ test('Creating new Employee Object',() => {
     expect(employee.email).toBe('gmail');
 
 });
+
+test()
