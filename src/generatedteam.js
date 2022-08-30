@@ -5,18 +5,19 @@ const Manager = require('../lib/Manager');
 const Employee = require('../lib/Employee');
 
 const generateManager = function(manager){
+    
     return`
     <div class="col-4">
     <div class="card h-auto">
         <div class="card-header bg-info text-white">
             <h2>Manager</h2>
-            <h2>${manager.name}</h2>
+            <h2>${manager[0].name}</h2>
             
         </div>
         <div class="card-body">
-            <p class="id">ID: ${manager.id}</p>
-            <p class="email">Email: <a href="${manager.email}">${manager.email}</a></p>
-            <p class="office">Office Number: ${manager.officeNumber}</p>
+            <p class="id">ID: ${manager[0].id}</p>
+            <p class="email">Email: <a href="${manager[0].email}">${manager[0].email}</a></p>
+            <p class="office">Office Number: ${manager[0].officeNumber}</p>
         </div>
     </div>
 </div>    
